@@ -14,7 +14,6 @@ while user_in == True:
     url_count += 1
     if url != "":
         list_url.append(url)
-        print(list_url)
     elif url == "":
         user_in = False
 print()
