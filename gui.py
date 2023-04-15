@@ -1,6 +1,7 @@
 import tkinter as tk
 from pytube import YouTube
 import os
+from time import sleep
 
 
 win = tk.Tk()
@@ -15,9 +16,10 @@ show = ""
 def next_url():
     global show
     URL = entry_url.get()
-    list_url.append(URL)  # add url to list
-
-    print(len(list_url))
+    if URL != "":
+        list_url.append(URL)  # add url to list
+    else:
+        print("else")
 
     entry_url.delete(0, 100000)  # clear the entry from index 0 to 100000
 
@@ -55,10 +57,7 @@ def download():
         base, ext = os.path.splitext(out_file)
         new_file = base + ".mp3"
         os.rename(out_file, new_file)
-        """finish = str(f"finish {list_url.index(i)+ 1} /{len(list_url)}")
-        status_label.configure(finish)"""
 
-    status_label.configure(text="finish")
     label_video.configure(text="")
     list_url = []
     show = ""
