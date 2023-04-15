@@ -14,6 +14,8 @@
 4. Then program will create a folder and save all the mp3 file on it.
 
 ## Version History
+* 2.0
+  * Release GUI version
 * 1.0
   * Download mp3 file from YouTube video
   * Initial Release
