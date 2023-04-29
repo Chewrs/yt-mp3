@@ -1,11 +1,20 @@
 # Youtube to mp3
-#### This project help you to download multiple songs from youtube at once.
+This project help you to download multiple songs from youtube at once.
 
 ## Get start
-1. Clone this project. `git clone...`
+1. Clone this project.
+```sh
+git clone https://github.com/Chewrs/yt-mp3.git 
+```
 2. Go to the project directory
-3. Download the pytube library. `pip3 install pytube`
-4. Run the program. `python3 main.py`
+3. Download the pytube library. 
+```sh
+pip3 install pytube
+```
+4. Run the program. 
+```
+python3 main.py
+```
 
 ## Example Usage
 1. When the program is running input your Youtube URL in `URL 1`
