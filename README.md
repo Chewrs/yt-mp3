@@ -1,4 +1,4 @@
-# Youtube to mp3
+# Youtube to MP3
 This project help you to download multiple songs from youtube at once.
 
 ## Get start
